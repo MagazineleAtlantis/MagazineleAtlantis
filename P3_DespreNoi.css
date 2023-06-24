@@ -1,0 +1,437 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: max-content;
+}
+
+#three-about-us{
+  top: 7rem;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ overflow: visible;
+}
+
+#three-about-us .heading-about-us h3 {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 800;
+  border-bottom: 3px solid #000000;
+  padding-bottom: 0;
+  color: rgb(0, 0, 0);
+}
+
+.heading-about-us h3 span {
+  font-weight: 200;
+}
+
+/* .container1{
+  margin: 30px 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container1 .card1{
+  position: relative;
+  display: flex;
+  padding: 5px;
+  height:50px;
+  width: 7rem;
+  border: 1px solid grey;
+  margin: 5px 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 15px;
+  font-weight: bold;
+  border:2px solid rgba(176, 175, 175, 0.637);
+  background: linear-gradient(rgba(209, 205, 205, 0.449), rgba(216, 212, 212, 0.479));
+}
+
+.card1:hover{
+  background: whitesmoke;
+} */
+
+#Varodimex{
+  height:max-content;
+  padding-top: 50px;
+  width:100%;
+  margin-bottom: 2.5rem;
+}
+
+.containerVarodimex{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
+.cardVarodimex{
+
+  width:20rem;
+  height: 15rem;
+  padding:15px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 30px;
+  margin: 5px 20px;
+  border-bottom: 3px solid rgb(142, 147, 142);
+}
+
+.cardVarodimex i{
+  font-size: 3rem;
+  color: rgba(2, 2, 207, 0.938);
+}
+
+i:hover{
+  transform: rotateX(5deg);
+}
+.cardVarodimex p{
+
+  margin:30px 0 0 5px;
+  width: 100%;
+  padding:15px 5px;
+}
+
+#Logistica{
+  height: fit-content;
+  position: relative;
+  background:rgb(19, 19, 103);
+  padding: 3rem 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+#Logistica .text{
+  position: relative;
+  width: 55%;
+  margin:0 20px;
+}
+
+#Logistica .text h3{
+  font-family: 'Kalam', cursive;
+  margin-bottom: 45px;
+  font-size: 50px;
+  color: whitesmoke;
+  ;
+}
+
+#Logistica .text p{
+  padding:10px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Kalam', cursive;
+  font-weight: 200;
+  line-height: 28px;
+
+}
+
+#Logistica .logistica_img {
+    width: 45%;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.logistica_img img{
+  width: 95%;
+  height: 400px;
+}
+
+/* SECTIUNEA EVOLUTIE */
+
+#Evolutie{
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items:space-between;
+  align-items: center;
+}
+
+#Evolutie .title{
+  margin-top: 0px;
+} 
+
+#Evolutie .title h3{
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: rgb(19, 19, 103);
+  
+}
+.container-evolutie{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  height:max-content;
+  margin:30px 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container-evolutie .chart{
+  position: relative;
+  width:50rem;
+  height:auto;
+  padding:15px;
+}
+
+/* Slideshow container */
+.slider-evolutie {
+  width: 30rem;
+  padding:0px 0px 0px 0px;
+  position: relative;
+  margin:0px 0px;
+}
+
+.mySlides-evolutie{
+  top:3px;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.mySlides-evolutie .image{
+  position: relative;
+  width:100%;
+  height:350px;
+
+}
+
+.mySlides-evolutie .image img{
+  position: relative;
+  height:350px;
+  width: 100%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.mySlides-evolutie .text {
+  color: #2d55d8;
+  font-size: 1.2rem;
+  padding: 5px 0px;
+  position: relative;
+  bottom: 100%;
+  width: 100%;
+  margin: auto;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* SECTIUNEA PERSPECTIVE DE VIITOR */
+#Perspective{
+  background:linear-gradient(rgb(16, 16, 95),rgb(28, 28, 158));
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  padding-top: 0.3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items:space-between;
+  align-items: center;
+}
+
+#Perspective .titlu-perspective{
+  margin-top:25px;
+} 
+
+#Perspective .titlu-perspective h2{
+  font-family: 'Kalam', cursive;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#Perspective .container-perspective{
+  top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  width:100%;
+  margin: 10px;
+}
+
+.container-perspective .card4{
+  background-color: rgb(255, 255, 255);
+  margin:15px;
+  position: relative;
+  padding:25px;
+  width: 400px;
+  height:max-content;
+  border: 2px solid rgba(255, 255, 255, 0.466);
+  border-radius: 10px;
+  
+  
+}
+
+.card4 .title{
+  font-size: 25px;
+  color:rgb(32, 149, 252);
+  padding-bottom: 30px;
+
+}
+
+.card4 .subtitle {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.card4 ul{
+  position: relative;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+
+@media(max-width:950px){
+  #Logistica{
+    width: 100%;
+    height:fit-content;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 5rem;
+  }
+
+  #Logistica .text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    float: none;
+    margin:auto;
+    padding:0 15px;
+  }
+  
+  #Logistica .text h3{
+    position: relative;
+    margin-bottom: 45px;
+    font-size: 50px;
+    color: whitesmoke;
+    
+  }
+  
+  #Logistica .text p{
+    width: 100%;
+    padding:1px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  
+  }
+  
+  #Logistica .logistica_img {
+    width: 90%;
+    top:35px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  }
+  
+  .logistica_img img{
+    width: 100%;
+    position: relative;
+    height:auto;
+  }
+
+  #Perspective{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    padding-top: 3rem;
+    display: flex;
+    align-items:space-between;
+    align-items: center;
+  }
+}

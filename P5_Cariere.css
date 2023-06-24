@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    /*background:white;*/
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cariere{
+    margin-top: 6rem;
+    position: relative;
+}
+
+.titlu{
+    padding: 50px 0px 5px 0px;
+    box-sizing: border-box;
+    position:relative;
+    text-align: center;
+
+}
+.titlu h1{
+    
+    font-family: Arial;
+    color: rgb(41, 46, 51);
+    font-size: 2.5rem;
+}
+
+.infoCariere{
+    position: relative;
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box-layout{
+    position: relative;
+    width: 33rem;
+    height: fit-content;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box-layout label{
+     
+     position:relative;
+     display:block;
+     width: calc(260px - 30px);
+     margin:15px;
+}
+.box-layout label .flipcard{
+    position:relative;
+    height: 160px;
+    transition: all 2s ease;
+}
+    
+
+.flipcard .front
+{
+    position: absolute;
+    background:  #04185e;
+    float: left;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+
+.box-layout label .flipcard .front h2{
+    position:absolute;
+    top:32px;
+    right:2px;
+    margin:0;
+    padding:0;
+    font-size: 6rem;
+    color:rgba(255,255,255,0.05);
+    transition:0.5s ease;
+
+}
+
+.box-layout label .flipcard .front:hover h2{
+    top:10px;
+}
+
+.box-layout label .flipcard .front h3{
+        margin:0px 0px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color:white;
+        padding-top: 4rem;
+        box-sizing: border-box;
+        padding-right: 3rem;
+        text-align: center;
+}
+
+.box-layout label .flipcard .front p{
+
+    margin-top: 1cm;
+    list-style: none;
+    padding:0;
+    color:rgb(207, 206, 206);
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+input{
+    display:none;
+}
+
+label:hover .flipcard{
+    transform:rotateX(2deg);
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}
+
+.containerDC{
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* .containerDC .imgdc{
+    width: 15rem;
+    position: inherit;
+    height:15rem;
+    margin-top: 1rem;
+    border-radius: 20%;
+}
+
+.imgdc img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20%;
+} */
+
+.verticaltext{
+    position: relative;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin:2rem 0.1rem;
+    height: max-content;
+}
+
+.verticaltext h2{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 800;
+    word-spacing: -6px;
+    letter-spacing: -10px;
+    font-family: 'Leckerli One', cursive;;
+
+}
+
+.reason_container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    height: 100%;
+}
+
+.reasonCard{
+    position: relative;
+    text-align: center;
+    width:260px;
+    margin: 1.1rem;
+    font-size:larger;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:15px;
+}
+
+.reasonCard i{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+.apply{
+   text-align: center;
+    position:fixed;
+    background-color:#fbe116;
+    bottom:20px;
+    right:0;
+    margin-right: 5px;
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 12px #460a0a;
+    border:1px solid black;
+}
+
+.apply a{
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containermore a:visited{
+    color: blue;
+}
+
+.containermore a:hover{
+    color:rgb(63, 63, 143);
+}
+.apply:hover{
+    background-color: rgba(230, 165, 0, 0.983);
+}
+
+.containermore{
+    position: relative;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.containermore h3{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .box-layout {
+      width:100%;
+      display:inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box-layout label .flipcard{
+        position:relative;
+        height: 200px;
+        transition: all 2s ease;
+    }
+    
+    .containerDC{
+        position: relative;
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+    }
+    .containermore{
+        position: relative;
+        width: 100%;
+        line-height: 30px;
+    }
+  }

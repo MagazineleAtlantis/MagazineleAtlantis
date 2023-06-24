@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="application-name" content="Atlantis.ro">
+  <meta name="title" content="Magazinele Atlantis">
+  <meta name="description" content="Magazinele Atlantis - alături de voi din 1994">
+  <meta name="keywords"
+    content="Atlantis, Varodimex, oferte, angajati, Casa cu Pâine, calitate, românesc, lanț de magazine local, Bistrița, magazine Atlantis">
+  <title>Magazinele Atlantis</title>
+  <link rel="shortcut icon" href="Ph/Sigla_Atlantis.jpeg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="bara_meniu.css">
+  <link rel="stylesheet" href="P3_DespreNoi.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Leckerli+One&display=swap"rel="stylesheet">
+</head>
+
+
+<body>
+
+   <!--BARA DE NAVIGARE -  HEADER-->
+   <header>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Meniu</label>
+    <!--imagine sigla Atlantis in bara de navigare-->
+    <a href=P1_Home.html>
+      <img class="img1" src="Ph/Sigla_Atlantis.jpeg" alt="Sigla Atlantis">
+    </a>
+
+    <nav class="navbar">
+
+      <!-- aici avem elementele care se afla in bara de meniu -->
+      <ul>
+        <li><a href="P3_DespreNoi.html">Despre noi</a></li>
+        <li><a href="P5_Cariere.html">Cariere</a></li>
+        <li><a href="P6_Contact.html">Contact</a></li>
+        <li><a href="P1_Home.html">Acasa</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTINUT PRINCIPAL -->
+  <section id=three-about-us>
+
+    <!-- TITLU -->
+    <div class="heading-about-us">
+      <h3> Evoluția <span>noastră</span></h3>
+    </div>
+    <!-- CONTAINER 1 -->
+    <!-- <div class="container1">
+      <a href="#Varodimex" class="card1">Varodimex</a>
+      <a href="#Logistica" class="card1">Logistică</a>
+      <a href="#Evolutie" class="card1">Evoluție</a>
+      <a href="#Perspective" class="card1">Perspective de viitor</a>
+    </div> -->
+
+    <!-- SECTIUNEA VARODIMEX -->
+    <section id="Varodimex">
+      <div class="containerVarodimex">
+        <div class="cardVarodimex">
+          <i class="fas fa-solid fa-chart-line"></i>
+          <p class="c2_text">În 2021 am atins o cifră de afaceri de peste 40 de milioane de lei, cu o echipă de 110
+            angajați. Din 2015, am înregistrat o creștere semnificativă, dublându-ne numărul de magazine</p>
+        </div>
+
+        <div class="cardVarodimex">
+          <i class="fas fa-solid fa-shopping-cart"></i>
+          <p class="c2_text">Dispunem de un depozit logistic de peste 1500 m² pe care îl utilizăm ca platformă
+            de alimentare/aprovizionare a magazinelor Atlantis</p>
+        </div>
+
+        <div class="cardVarodimex">
+          <i class="fas fa-solid fa-medal"></i>
+          <p class="c2_text">Anul 2023 ne oferă oportunități noi de dezvoltare, prin începerea de noi
+            parteneriate, mărirea rețelei de magazine și investiții în continuarea evoluției companiei
+            Varodimex .</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTIUNEA LOGISTICA -->
+    <section id="Logistica">
+      <div class="text">
+        <h3>Logistică</h3>
+        <p>Firma Trans Quatro, cu o experiență remarcabilă în domeniul distribuției alimentare și logisticii, asigură
+          fluxul de produse din gama Coca-Cola în județul Bistrița-Năsăud prin intermediul flotei sale de șase
+          autospeciale moderne.</p>
+        <br>
+        <p>În calitate de parteneri dedicați, am dezvoltat o colaborare de lungă durată cu Coca-Cola HBC, fiind unul
+          dintre principalii lor colaboratori locali de peste 12 ani.</p>
+        <br>
+        <p>Totodată, dispunem de un depozit logistic de peste 1500 m² pe care îl utilizăm ca platformă de
+          alimentare/aprovizionare a magazinelor Atlantis.</p>
+      </div>
+      <div class="logistica_img">
+        <img src="Ph/depozitbb.jpg" alt="Transquatro" loading="lazy">
+      </div>
+    </section>
+
+
+    <!-- SECIUNEA  EVOLUTIE-->
+    <section id="Evolutie">
+      <!-- <div class="title">
+        <h3>Evoluție</h3>
+      </div> -->
+      <div class="container-evolutie">
+        <div class="chart"><canvas id="myChart"></canvas></div>
+
+        <div class="slider-evolutie">
+          <div class="mySlides-evolutie fade">
+            <div class="text">Investiții în echipament</div>
+            <div class="image"> <img src="Ph/lucrare.jpg"
+                alt="imagine" loading="lazy"></div>
+
+
+          </div>
+
+          <div class="mySlides-evolutie fade">
+            <div class="text">Investiții în energie verde</div>
+            <div class="image"> <img src="Ph/panouri.jpg"
+                alt="imagine" loading="lazy"></div>
+
+
+          </div>
+
+          <div class="mySlides-evolutie fade">
+            <div class="text">Parteneriate stabile și de durată cu furnizorii</div>
+            <div class="image"> <img src="Ph/Atlantis_lactate.jpeg"
+                alt="imagine" loading="lazy">
+            </div>
+
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTIUNEA PERSPECTIVE DE VIITOR -->
+    <section id="Perspective">
+      <div class="titlu-perspective"><h2>Perspective de viitor</h2></div>
+      <div class="container-perspective">
+        <div class="card4">
+          <div class="title"><h3>Obiective</h3></div>
+          <div class="subtitle"><h5>Fundamentele pe care construim:</h5></div>
+          <ul>
+            <li>Calitate superioară la prețuri accesibile</li>
+            <li>Promoții unice</li>
+            <li>Promovarea produselor autohtone</li>
+            <li>Calitatea experienței oferite clienților</li>
+            <li>Magazine curate și organizate</li>
+          </ul>
+        </div>
+
+        <div class="card4">
+          <div class="title"><h3>Progrese</h3></div>
+          <div class="subtitle"><h5>Ce am realizat până acum?</h5></div>
+          <ul>
+            <li>Un lanț de aprovizionare la nivel local</li>
+            <li>Relații durabile cu furnizorii noștri</li>
+            <li>Zeci de mii de clienți mulțumiți</li>
+            <li>Milioane de euro investite pe plan local</li>
+            <li>Modernizarea constantă a punctelor de lucru</li>
+          </ul>
+        </div>
+
+        <div class="card4">
+          <div class="title"><h3>Planuri viitoare</h3></div>
+          <div class="subtitle"><h5>Ce ne propunem?</h5></div>
+          <ul>
+            <li>Deschiderea de noi locații</li>
+            <li>Extinderea portofoliului de produse</li>
+            <li>Lansarea de noi servicii</li>
+            <li>Investiții în sustenabilitate</li>
+            <li>Programe de loialitate</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </section>
+ <script src="P3_js.js"></script> 
+</body>
+
+
+
+</html>

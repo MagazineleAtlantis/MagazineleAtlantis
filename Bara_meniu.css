@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/*FORMAT HEADER*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgb(41, 43, 51);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  padding-top:0;
+  padding: 20px, 10%;
+
+}
+
+/*FORMAT SIGLA Atlantis IN HEADER */
+header .img1 {
+  width: 130px;
+  height: 120px;
+  float: left;
+  border-radius: 15%;
+  margin-left: 100px;
+  box-shadow: 0 5px 10px rgba(11, 9, 99, 0.774);
+}
+
+/*FORMAT BARA DE NAVIGARE*/
+header .navbar {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  height: 120px;
+  width: 100%;
+
+}
+
+/*FORMAT LISTA NEORDONATA DIN NAVBAR*/
+header .navbar ul {
+  list-style: none;
+  margin-right: 25px;
+  margin-top: 35px;
+  display:flex;
+  float:right;
+}
+
+/*FORMAT CASUTE LINK DIN LISTA*/
+header .navbar ul li {
+  position: relative;
+  float: right;
+}
+
+/*FORMAT LINK-URI DIN LI*/
+header .navbar ul li a {
+  font-size: 19px;
+  padding: 20px 25px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  text-transform: initial;
+}
+
+/*FORMAT LINK HOVER*/
+header .navbar ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+/*FORMAT LISTE NEORDONATA DIN LINK ITEM (LI) PENTRU DROPDOWN*/
+header .navbar ul li ul {
+  position: absolute;
+  left: 0px;
+  top: 27px;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(245, 245, 245, 0.808);
+  display: none;
+}
+
+/*FORMAT CASUTE LINKURI DROPDOWN*/
+header .navbar ul li ul li {
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+/*FORMAT LINKURI DIN CASUTE DROPDOWN*/
+header .navbar ul li ul a {
+  width:100%;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*FORMAT PENTRU HOVER PENTRU A DESCHIDE DROPDOWN LINKS*/
+header .navbar ul li:hover>ul {
+  display: initial;
+}
+
+/*FORMAT CASUTA 'MENIU' PENTRU VIZUALIZARE TELEFON*/
+header label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  display: none;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+#menu-bar {
+  display: none;
+}
+
+/*FORMAT TELEFON*/
+@media(max-width:1050px) {
+
+  header {
+    position: fixed;
+    width:100%;
+    
+    padding: 10px;
+    
+  }
+
+  header label {
+    display: initial;
+  }
+
+
+  header .img1{
+    width: 130px;
+    right: 10px;
+    position: relative;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    width: 5cm;
+    margin-right: 50px;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    line-height: 15px;
+    border-bottom: none;
+    display: none;
+  }
+
+  header .navbar ul{
+    display:flex;
+    flex-direction: column;
+    float:none;
+  }
+  header .navbar ul li {
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(247, 243, 243, 0);
+  }
+
+  header .navbar ul li a {
+    background:rgba(245, 245, 245, 0.8);
+    color: black;
+    width: 5cm;
+  }
+
+  header .navbar ul li a:hover{
+    background: rgb(124, 124, 124);
+  }
+  
+  #menu-bar:checked~.navbar {
+    display: initial;
+  }
+
+}

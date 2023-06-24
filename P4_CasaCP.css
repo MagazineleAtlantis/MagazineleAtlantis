@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    /*background:white;*/
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#four-casacp{
+  margin-top:3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+}
+#four-casacp1{
+  margin-top:7rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+}
+.siglaCP{
+  position: relative;
+  margin:20px;
+  width:110px;
+  height:100px;
+  
+}
+
+.siglaCP img{
+  width: 100%;
+  border-radius: 50%;
+  height:100px;
+  border: 3px solid rgb(212, 208, 198);
+}
+
+.container1CP{
+  background-image: url("Ph/CP_paini.jpg");
+  background-position-y: center;
+  background-size: cover;
+  /* display: flex;
+  flex-direction: row; */
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.titleCp{
+  background: rgba(247, 241, 241, 0.925);
+  position: relative;
+  border-radius: 0 85px 85px 0;
+  width:50%;
+  padding:30px;
+}
+
+.titleCp h4{
+  margin-bottom: 3rem;
+  font-size: 17px;
+  color: rgba(84, 46, 29, 0.825);
+}
+
+.titleCp h2{
+  
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  font-family: 'Leckerli One', cursive;
+  font-weight: 500;
+}
+.titleCp p{
+  position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.2rem;
+}
+
+/* .imagine1CP{
+  top: -100px;
+  width: 50%;
+  position: relative;
+  }
+
+.imagine1CP img{
+  width: 100%;
+  height:auto;
+} */
+
+.like-icon {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.like-icon i {
+  font-size: 20px;
+}
+
+.like-icon.empty i {
+  color: rgba(145, 138, 138, 0.812);
+}
+
+.like-icon.filled i {
+  color: red;
+}
+
+.like-count{
+  text-align: center;
+}
+
+.container2CP{
+  position: relative;
+  margin-top: 1.5rem;
+  width:100%;
+}
+
+.titleCP2 {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.titleCP2 h2{
+  position: relative;
+  font-family: 'Leckerli One', cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.titleCP2 p{
+  padding:10px;
+  font-size: 18px;
+  color: rgba(84, 46, 29, 0.825);
+}
+
+.card-containerCP{
+  width:100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.card-containerCP .cardCP{
+  margin:1rem;
+  display: flex;
+  flex-direction: column;
+  width:fit-content;
+  height:fit-content;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardCP h4{
+  display: block;
+  position: relative;
+  text-align: center;
+  padding:10px;
+  height:max-content;
+  width:100%;
+}
+
+.cardCP .img-cardCp{
+  position: relative;
+  width:130px;
+  height:130px;
+}
+
+.cardCP .img-cardCp img{
+  width: 100%;
+  border-radius: 50%;
+  height:130px;
+  border: 3px solid rgb(212, 208, 198);
+}
+
+.container3CP{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+
+.container3CP .card3CP-img{
+  position: relative;
+  height:20rem;
+  width:30%;
+}
+
+.container3CP .card3CP-img img{
+  width: 100%;
+  height:100%;
+}
+
+.container3CP .card3CP-text{
+  position: relative;
+  height:20rem;
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.842);
+  padding: 5px;
+}
+
+.card3CP-text h3{
+  margin: 10px 0;
+  font-size: 1.8rem;
+  font-family: monotype corsiva;
+}
+
+.card3CP-text p{
+  font-size: 18px;
+  font-family: monotype;
+  color: rgba(84, 46, 29, 0.825);
+}
+@media screen and (max-width:600px){
+ 
+  .container3CP .card3CP-img{
+    position: relative;
+    height:150px;
+    width:50%;
+  }
+  
+  .container3CP .card3CP-img img{
+    width: 100%;
+    height:100%;
+  }
+  
+  .container3CP .card3CP-text{
+    position: relative;
+    height:fit-content;
+    width:50%;
+  }
+  
+}
