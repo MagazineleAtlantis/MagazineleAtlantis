@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="application-name" content="Atlantis.ro">
+  <meta name="title" content="Magazinele Atlantis">
+  <meta name="description" content="Magazinele Atlantis - alături de voi din 1994">
+  <meta name="keywords"
+    content="Atlantis, Varodimex, oferte, angajati, Casa cu Pâine, calitate, românesc, lanț de magazine local, Bistrița, magazine Atlantis">
+  <title>Magazinele Atlantis</title>
+  <link rel="shortcut icon" href="Ph/Sigla_Atlantis_mic.jpeg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bara_meniu.css">
+  <link rel="stylesheet" href="P1_Home.css">
+  <link rel="stylesheet" href="P3_DespreNoi.css">
+  <link rel="stylesheet" href="P4_CasaCP.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Leckerli+One&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+
+<body>
+
+  <!--BARA DE NAVIGARE -  HEADER-->
+  <header>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Meniu</label>
+    <!--imagine sigla Atlantis in bara de navigare-->
+    <a href=P1_Home.html>
+      <img class="img1" src="Ph/Sigla_Atlantis.jpeg" alt="Sigla Atlantis">
+    </a>
+
+    <nav class="navbar">
+
+      <!-- aici avem elementele care se afla in bara de meniu -->
+      <ul>
+        <li><a href="#two-magazine" onclick="smoothScroll('#two-magazine')">Magazine</a></li>
+        <li><a href="#four-casacp" onclick="smoothScroll('#four-casacp')">Casa cu pâine</a></li>
+        <li><a href="P3_DespreNoi.html">Despre noi</a></li>
+        <li><a href="P5_Cariere.html">Cariere</a></li>
+        <li><a href="P6_Contact.html">Contact</a></li>
+        <li><a href="P1_Home.html">Acasa</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTIUNE 1--------------------------------------------------------------------- -->
+    <section class="one">
+      <!-- BLOCK 1 -->
+      <div class="block1">
+        <div class="imagine1"><img src="Ph/CP_chestii.jpg" alt="Imagine cover" loading="lazy"></div>
+        <div class="text-first">
+          <div class="heading-first">
+            <h3> <span>Magazinele </span>Atlantis</h3>
+          </div>
+          <p class="subtitle-first">O afacere de familie 100% românească!<br>Alături de voi din 1994!</p>
+        </div>
+      </div>
+
+      <div class="icon_line">
+        <hr>
+        <a href="#block2_title"><i class="fas fa-duotone fa-chevron-down"></i> </a>
+      </div>
+
+
+      <div id="block2_title">
+        <h2>Bun venit pe site-ul nostru!</h2>
+      </div>
+
+      <div class="block2">
+
+        <!-- BLOCK 2 -->
+        <!-- BOX 1 INSIDE BLOCK 2 -->
+        <div class="box2">
+
+          <h4>Despre noi</h4>
+          <div class="box2_img"><img src="Ph/sediu.png" alt="Sigla Varodimex" loading="lazy">
+          </div>
+          <p class="box2_text">Lanțul de magazine alimentare „Atlantis” este cel mai cunoscut brand al firmei Varodimex,
+            ajungând la 10 locații pe raza municipiului Bistrița. Locațiile sunt de tip minimarket și supermarket, cu o
+            lungă istorie în comerțul tradițional local.</p>
+          <a href="P3_DespreNoi.html" class="more">Află mai multe +</a>
+        </div>
+
+        <!-- BOX 2 INSIDE BLOCK 2 -->
+        <div class="box2">
+
+          <h4>Magazinele noastre</h4>
+          <div class="box2_img"><img src="Ph/dor_deschidere.jpg" alt="Poza magazin" loading="lazy">
+          </div>
+          <p class="box2_text">Fiecare magazin Atlantis are o poveste unică și un nume care reflectă acest lucru. De
+            peste
+            28 de ani ne dedicăm să fim #alăturidevoi, oferind produse de calitate și o experiență memorabilă în
+            magazinele noastre.</p>
+            <a href="#two-magazine" onclick="smoothScroll('#two-magazine')"class="more">Află mai multe +</a>
+
+        </div>
+
+        <!-- BOX 3 INSIDE BLOCK 2  -->
+        <div class="box2">
+          <h4>Brutăria noastră</h4>
+          <div class="box2_img"><img src="Ph/pozacasacp(2).jpeg" alt="Poza cu produse brutarie" loading="lazy">
+          </div>
+          <p class="box2_text">Ca parte a devotamentului nostru de a susține economia și tradițiile locale, brutăria
+            „Casa
+            cu Pâine” produce, încă din 2012, peste 30 de tipuri diferite de produse de panificație exclusiv pentru
+            magazinele Atlantis.</p>
+            <a href="#four-casacp" onclick="smoothScroll('#four-casacp')" class="more">Află mai multe +</a>
+
+        </div>
+
+        <!-- BOX 4 INSIDE BLOCK 2  -->
+        <div class="box2">
+          <h4>Transquatro</h4>
+          <div class="box2_img"><img src="Ph/depozitbb.jpg" alt="Poza cu echipa" loading="lazy">
+          </div>
+          <p class="box2_text">Avem o experiență remarcabilă în domeniul distribuției alimentare și logisticii, asigurând
+            fluxul de produse din gama Coca-Cola în județul Bistrița-Năsăud prin intermediul flotei noastre de șase
+            autospeciale moderne.</p>
+            <a href="#three-about-us" onclick="smoothScroll('#three-about-us')" class="more">Află mai multe +</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTIUNE 2--------------------------------------------------------------------- -->
+    <section id="two-magazine">
+      <div class="info-container">
+        <div class="container1">
+          <div class="slider">
+
+            <!-- Slide magazin 1 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 10</div>
+              <div class="image"> <img src="Magazine/A10.jpeg" alt="imagine" loading="lazy"></div>
+            </div>
+
+            <!-- Slide magazin 2 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 20</div>
+              <div class="image"> <img src="Magazine/A20.jpg" alt="imagine" loading="lazy"></div>
+            </div>
+
+            <!-- Slide magazin 3 -->
+            <div class="mySlides">
+              <div class="text">Atlantis Dor</div>
+              <div class="image"> <img src="Magazine/ADor.jpg" alt="imagine" loading="lazy"></div>
+            </div>
+
+            <!-- Slide magazin 4 -->
+            <div class="mySlides">
+              <div class="text">Atlantis </div>
+              <div class="image"> <img src="Magazine/A10.jpeg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Slide magazin 5 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 5</div>
+              <div class="image"> <img src="Magazine/A20.jpg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Slide magazin 6 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 6</div>
+              <div class="image"> <img src="Magazine/ADor.jpg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Slide magazin 7 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 7</div>
+              <div class="image"> <img src="Magazine/A10.jpeg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Slide magazin 8 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 8</div>
+              <div class="image"> <img src="Magazine/ADor.jpg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Slide magazin 9 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 9</div>
+              <div class="image"> <img src="Magazine/A10.jpeg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Slide magazin 10 -->
+            <div class="mySlides">
+              <div class="text">Atlantis 10</div>
+              <div class="image"> <img src="Magazine/ADor.jpg" alt="imagine" loading="lazy">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="title">
+            <h3>Vizitează-ne astăzi!</h3>
+          </div>
+          <div class="program">
+            <div class="zi">
+              <p>LUNI-VINERI</p>
+            </div>
+            <div class="ora">6:30 - 23:00</div>
+          </div>
+
+          <div class="program">
+            <div class="zi">
+              <p>SÂMBĂTĂ</p>
+            </div>
+            <div class="ora">7:00 - 23:00</div>
+          </div>
+
+          <div class="program">
+            <div class="zi">
+              <p>DUMINICĂ</p>
+            </div>
+            <div class="ora">8:00 - 23:00</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container2">
+        <div class="slider2">
+          <div class="links">
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>Dor</span></h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>10</span></h3>
+            </a>
+
+            <a href="">
+
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>TQ</span></h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span style="font-size: 0.95rem;">Casa Albă</span>
+              </h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>Denar</span></h3>
+            </a>
+
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>Dacia</span></h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>Delta</span></h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>Dacapo</span></h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>20</span></h3>
+            </a>
+
+            <a href="">
+              <h3><i class="fas fa-map-marker-alt"></i>Atlantis <br><span>3D</span></h3>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTIUNE 3--------------------------------------------------------------------- -->
+    <section id="four-casacp">
+      <div class="siglaCP"><img src="Ph/CasaCP_sigla.jpg" alt="Sigla CP"></div>
+      <div class="container1CP">
+        <div class="titleCp">
+          <h4>Pâinea 100% naturală, produsă în Ardeal</h4>
+          <h2>Casa cu pâine</h2>
+          <p>Produsele noastre sunt realizate prin mijloace de producție artizanale, folosind un amestec de rețete
+            locale
+            și
+            germane pentru a crea o pâine desăvârșită.</p>
+        </div>
+
+        <!-- <div class="imagine1CP">
+          <img src="Photos/CP/CP_paini.jpg" alt="Poza Casa cu Paine">
+        </div> -->
+      </div>
+
+      <div class="container2CP">
+        <div class="titleCP2">
+          <h2>Produse populare</h2>
+
+          <p>Ne place să explorăm rețete noi, fie tradiționale sau inovatoare. <br>Produsele noastre sunt prezente
+            <b>exclusiv
+              în magazinele Atlantis</b></p>
+        </div>
+        <div class="card-containerCP">
+          <!-- CARD PRODUS 1 -->
+          <div class="cardCP" data-id="1">
+            <div class="img-cardCp"><img src="Ph/CP_paine_chia.jpg" alt="Produs panificatie" loading="lazy"></div>
+            <h4>Pâine cu chia</h4>
+
+            <span class="like-icon empty" onclick="updateLikes(1)"><i class="fas fa-heart" loading="lazy"></i></span>
+            <span id="like-count-1" class="like-count">0</span>
+          </div>
+
+          <!-- CARD PRODUS 2 -->
+          <div class="cardCP" data-id="2">
+            <div class="img-cardCp"><img src="Ph/CP_bacheta.jpg" alt="Produs panificatie" loading="lazy"></div>
+            <h4>Bagheta</h4>
+
+            <span class="like-icon empty" onclick="updateLikes(2)"><i class="fas fa-heart" loading="lazy"></i></span>
+            <span id="like-count-2" class="like-count">0</span>
+          </div>
+
+          <!-- CARD PRODUS 3 -->
+          <div class="cardCP" data-id="3">
+            <div class="img-cardCp"><img src="Ph/CP_9.jpg" alt="Produs panificatie" loading="lazy"></div>
+            <h4>Haioș cu vișine</h4>
+
+            <span class="like-icon empty" onclick="updateLikes(3)"><i class="fas fa-heart" loading="lazy"></i></span>
+            <span id="like-count-3" class="like-count">0</span>
+          </div>
+
+          <!-- CARD PRODUS 4 -->
+          <div class="cardCP" data-id="4">
+            <div class="img-cardCp"><img src="Ph/CP_cozonaci.jpg" alt="Produs panificatie" loading="lazy"></div>
+            <h4>Cozonaci</h4>
+
+            <span class="like-icon empty" onclick="updateLikes(4)"><i class="fas fa-heart" loading="lazy"></i></span>
+            <span id="like-count-4" class="like-count">0</span>
+          </div>
+
+          <!-- CARD PRODUS 5 -->
+          <div class="cardCP" data-id="5">
+            <div class="img-cardCp"><img src="Ph/CP_5.jpg" alt="Produs panificatie" loading="lazy"></div>
+            <h4>Pâine cu mălai</h4>
+
+            <span class="like-icon empty" onclick="updateLikes(5)"><i class="fas fa-heart" loading="lazy"></i></span>
+            <span id="like-count-5" class="like-count">0</span>
+          </div>
+
+          <!-- CARD PRODUS 6 -->
+          <div class="cardCP" data-id="6">
+            <div class="img-cardCp"><img src="Ph/CP_pasca.jpg" alt="Produs panificatie" loading="lazy"></div>
+            <h4>Pasca</h4>
+
+            <span class="like-icon empty" onclick="updateLikes(6)"><i class="fas fa-heart" loading="lazy"></i></span>
+            <span id="like-count-6" class="like-count">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container3CP">
+
+        <div class="card3CP-img"><img src="Ph/CP_11.jpg" alt="Poza cornuri" loading="lazy"></div>
+        <div class="card3CP-text">
+          <h3>Încearcă gustul copilăriei</h3>
+          <p>Cornurile noastre sunt pufoase, moi, dulci și pline de gem de fructe sau cremă de vanilie</p>
+          <h5>Haide în magazinele Atlantis și gustă!</h5>
+        </div>
+
+        <div class="card3CP-img"><img src="Ph/CP_16.jpg" alt="Poza echipa" loading="lazy"></div>
+        <div class="card3CP-text">
+          <h3>O echipă cu mâini magice</h3>
+          <p>Pe lângă gustul excepțional, pâinea noastră conține ingredientul magic - dragul de oameni</p>
+          <h5>Suntem de 10 ani alături de voi!</h5>
+        </div>
+
+        <div class="card3CP-img"><img src="Ph/CP_3.jpg" alt="Pita de casa" loading="lazy"></div>
+        <div class="card3CP-text">
+          <h3>Pita de casă - Vedeta brutăriei Casa cu Pâine</h3>
+          <p>O pâine unică făcută după o rețetă tradițională din Rustior</p>
+          <h5>Doar în magazinele Atlantis</h5>
+        </div>
+
+      </div>
+    </section>
+    <section id=three-about-us>
+
+
+      <!-- SECTIUNEA LOGISTICA -->
+      <section id="Logistica">
+        <div class="text">
+          <h3>Logistică</h3>
+          <p>Firma Trans Quatro, cu o experiență remarcabilă în domeniul distribuției alimentare și logisticii, asigură
+            fluxul de produse din gama Coca-Cola în județul Bistrița-Năsăud prin intermediul flotei sale de șase
+            autospeciale moderne.</p>
+          <br>
+          <p>În calitate de parteneri dedicați, am dezvoltat o colaborare de lungă durată cu Coca-Cola HBC, fiind unul
+            dintre principalii lor colaboratori locali de peste 12 ani.</p>
+          <br>
+          <p>Totodată, dispunem de un depozit logistic de peste 1500 m² pe care îl utilizăm ca platformă de
+            alimentare/aprovizionare a magazinelor Atlantis.</p>
+        </div>
+        <div class="logistica_img">
+          <img src="Ph/depozitbb.jpg" alt="Transquatro" loading="lazy">
+        </div>
+      </section>
+
+
+    </section>
+
+   
+  </main>
+
+
+ 
+</body>
+ <script src="P1.js"></script>
+</html>
