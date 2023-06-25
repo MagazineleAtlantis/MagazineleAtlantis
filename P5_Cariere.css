@@ -156,7 +156,7 @@ label:hover .flipcard{
     font-weight: 800;
     word-spacing: -6px;
     letter-spacing: -10px;
-    font-family: 'Leckerli One', cursive;;
+    font-family: 'Leckerli One', cursive;
 
 }
 
@@ -243,6 +243,9 @@ label:hover .flipcard{
 }
 
 @media screen and (max-width: 1100px) {
+    .infoCariere{
+        flex-wrap: wrap-reverse;
+    }
     .box-layout {
       width:100%;
       display:inline-flex;
@@ -268,5 +271,9 @@ label:hover .flipcard{
         position: relative;
         width: 100%;
         line-height: 30px;
+    }
+    
+    .verticaltext{
+        display: none;
     }
   }
