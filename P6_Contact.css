@@ -65,14 +65,14 @@ body {
     background: #858585bc;
     color:black;
 }
-.box-layout .icon-box:hover .icon {
+/* .box-layout .icon-box:hover .icon {
     top: 20px;
     right: calc(50% - 40px);
     width: 80px;
     height: 80px;
     border-radius: 50%;
     border: 3px solid rgb(255, 255, 255);
-}
+} */
 
 .box-layout .icon-box .icon .blu .fa {
     position: absolute;
@@ -94,9 +94,9 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.box-layout .icon-box:hover .icon .fa {
+/* .box-layout .icon-box:hover .icon .fa {
     font-size: 40px;
-}
+} */
 
 .box-layout .icon-box .text {
     position: absolute;
@@ -110,10 +110,10 @@ body {
     opacity: 0;
 }
 
-.box-layout .icon-box:hover .text {
+/* .box-layout .icon-box:hover .text {
     top: 100px;
     opacity: 1;
-}
+} */
 
 .box-layout .icon-box .text h3 {
     margin: 0 0 10px;
