@@ -323,8 +323,8 @@
             <div class="img-cardCp"><img src="Ph/CP_paine_chia.jpg" alt="Produs panificatie" ></div>
             <h4>Pâine cu chia</h4>
 
-            <span class="like-icon empty" onclick="updateLikes(1)"><i class="fas fa-heart" ></i></span>
-            <span id="like-count-1" class="like-count">0</span>
+           <span class="like-icon empty" onclick="toggleLike(this)"><i class="fas fa-heart"></i></span>
+            <!-- <span id="like-count-1" class="like-count">0</span> -->
           </div>
 
           <!-- CARD PRODUS 2 -->
@@ -332,8 +332,8 @@
             <div class="img-cardCp"><img src="Ph/CP_bacheta.jpg" alt="Produs panificatie" ></div>
             <h4>Bagheta</h4>
 
-            <span class="like-icon empty" onclick="updateLikes(2)"><i class="fas fa-heart" ></i></span>
-            <span id="like-count-2" class="like-count">0</span>
+           <span class="like-icon empty" onclick="toggleLike(this)"><i class="fas fa-heart"></i></span>
+            <!-- <span id="like-count-2" class="like-count">0</span> -->
           </div>
 
           <!-- CARD PRODUS 3 -->
@@ -341,8 +341,8 @@
             <div class="img-cardCp"><img src="Ph/CP_9.jpg" alt="Produs panificatie" ></div>
             <h4>Haioș cu vișine</h4>
 
-            <span class="like-icon empty" onclick="updateLikes(3)"><i class="fas fa-heart" ></i></span>
-            <span id="like-count-3" class="like-count">0</span>
+           <span class="like-icon empty" onclick="toggleLike(this)"><i class="fas fa-heart"></i></span>
+            <!-- <span id="like-count-3" class="like-count">0</span> -->
           </div>
 
           <!-- CARD PRODUS 4 -->
@@ -350,8 +350,8 @@
             <div class="img-cardCp"><img src="Ph/CP_cozonaci.jpg" alt="Produs panificatie" ></div>
             <h4>Cozonaci</h4>
 
-            <span class="like-icon empty" onclick="updateLikes(4)"><i class="fas fa-heart" ></i></span>
-            <span id="like-count-4" class="like-count">0</span>
+           <span class="like-icon empty" onclick="toggleLike(this)"><i class="fas fa-heart"></i></span>
+            <!-- <span id="like-count-4" class="like-count">0</span> -->
           </div>
 
           <!-- CARD PRODUS 5 -->
@@ -359,8 +359,8 @@
             <div class="img-cardCp"><img src="Ph/CP_5.jpg" alt="Produs panificatie" ></div>
             <h4>Pâine cu mălai</h4>
 
-            <span class="like-icon empty" onclick="updateLikes(5)"><i class="fas fa-heart" ></i></span>
-            <span id="like-count-5" class="like-count">0</span>
+           <span class="like-icon empty" onclick="toggleLike(this)"><i class="fas fa-heart"></i></span>
+            <!-- <span id="like-count-5" class="like-count">0</span> -->
           </div>
 
           <!-- CARD PRODUS 6 -->
@@ -368,8 +368,8 @@
             <div class="img-cardCp"><img src="Ph/CP_pasca.jpg" alt="Produs panificatie" ></div>
             <h4>Pasca</h4>
 
-            <span class="like-icon empty" onclick="updateLikes(6)"><i class="fas fa-heart" ></i></span>
-            <span id="like-count-6" class="like-count">0</span>
+           <span class="like-icon empty" onclick="toggleLike(this)"><i class="fas fa-heart"></i></span>
+            <!-- <span id="like-count-6" class="like-count">0</span> -->
           </div>
         </div>
       </div>
@@ -434,32 +434,54 @@
     <div class="box-containerF">
 
       <div class="boxF">
+        <i class="fas fa-clock"></i>
+        <h3>Link-uri utile</h3>
+        <a href="#two-magazine">Magazine</a>
+        <a href="#four-casacp">Casa cu Pâine</a>
+        <a href="P3_DespreNoi.html">Despre noi</a>
+      </div>
+
+      <div class="boxF">
+        <i class="fas fa-phone-alt" aria-hidden="false"></i>
+        <h3>Telefon</h3>
+        <a href="tel:0263341343">0263 341 343</a>
+      </div>
+      
+      <div class="boxF">
         <i class="fa fa-address-book" aria-hidden="true"></i>
-        <h3>Address</h3>
-        <p>King's street 12A</p>
+        <h3>Adresă depozit</h3>
+        <a href="https://goo.gl/maps/rswsfXxrMKkPFkTc8" target="_blank">Cart. Viisoara, Bistrita-link harta</a>
 
       </div>
 
       <div class="boxF">
         <i class="fa fa-envelope"></i>
         <h3>E-mail</h3>
-        <a href="#" class="link">ArianaCoffee@yahoo.com</a>
+        <a href="mailto:MagazineleAtlantis@yahoo.com">MagazineleAtlantis
+          @yahoo.com</a>
       </div>
 
       <div class="boxF">
-        <i class="fas fa-phone-alt" aria-hidden="false"></i>
-        <h3>Call us</h3>
-        <p>+40 712 113 456</p>
+        <i class="fa fa-facebook-square"></i>
+        <h3>Facebook</h3>
+        <a href="https://www.facebook.com/MagazineleAtlantis.RO" target="_blank">Apasa aici!</a>
       </div>
 
       <div class="boxF">
         <i class="fas fa-clock"></i>
-        <h3>Opening hours</h3>
-        <p>Monday - Friday: 8:00 - 24:00
-          <br> Saturday: 8:00 - 23:00
-        </p>
+        <h3>Angajări</h3>
+        <a href="https://forms.gle/7XrwYEkGzciW9EQp6" target="_blank">Aplică aici!</a>
       </div>
 
+
+      <div class="boxF">
+        <i class="fas fa-clock"></i>
+        <h3>Orar</h3>
+        <p>Luni - Vineri: 8:00 - 23:00
+          <br>Sâmbătă: 7:00 - 23:00
+          <br>Duminica: 8:00 - 23:00
+        </p>
+      </div>
     </div>
 
   </footer>

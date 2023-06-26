@@ -29,4 +29,11 @@ function smoothScroll(target) {
       window.requestAnimationFrame(step);
     }
   }
-  
+
+  function toggleLike(element) {
+    element.classList.toggle('empty');
+    element.classList.toggle('filled');
+
+    var likeCountElement = element.nextElementSibling;
+
+  }
