@@ -1,0 +1,60 @@
+ /*2 ------- FORMAT FOOTER */
+ footer{
+    background: rgb(41, 43, 51);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .Footer .box-containerF{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding:10px;
+  }
+  
+  .Footer .box-containerF .boxF{
+  position:relative;
+  margin:15px;
+  text-align: center;
+  width: fit-content;
+  }
+  .Footer .box-containerF .boxF h3{
+  padding-top:15px;
+    color: #fff;
+  
+  }
+  
+  .boxF i{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  background-color: white;
+  padding-top:13px;
+  
+  }
+  
+  
+  .Footer .box-containerF .boxF p{
+   color: #d1c9c9;
+  }
+  
+  .Footer .box-containerF .boxF .link{
+  color:#d1c9c9;
+  }
+  
+  .Footer .box-containerF .boxF .link:hover{
+  color: #fff;
+  }
