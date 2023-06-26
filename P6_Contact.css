@@ -7,11 +7,12 @@ body {
 
 .contact{
     position: relative;
-    top:9rem;
+    margin-top:9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8rem;
 }
 
 .titlu{

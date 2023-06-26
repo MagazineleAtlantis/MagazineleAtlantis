@@ -73,6 +73,9 @@
 
   }
   
+  .Footer .box-containerF .boxF a:hover{
+    background-color: rgba(102, 102, 102, 0.647);
+  }
   .Footer .box-containerF .boxF p{
     color: #fcfcfc;
     color: #fcfcfc;
@@ -83,7 +86,7 @@
     border-radius: 10px;
     width: fit-content;
     margin: auto;
-    
+    line-height: 28px;
     margin-top: 8px;
  
    }
