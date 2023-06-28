@@ -376,11 +376,10 @@ i:hover{
 @media(max-width:950px){
   #Logistica{
     width: 100%;
-    height:fit-content;
+    
     position: relative;
     align-items: center;
     flex-direction: column;
-    margin: auto;
     padding-bottom: 5rem;
   }
 
@@ -389,7 +388,7 @@ i:hover{
     flex-direction: column;
     position: relative;
     width: fit-content;
-    float: none;
+  
     padding:0 15px;
   }
   
