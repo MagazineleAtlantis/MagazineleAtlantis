@@ -14,7 +14,6 @@ body{
  flex-direction: column;
  justify-content: center;
  align-items: center;
- overflow: visible;
 }
 
 #three-about-us .heading-about-us h3 {
@@ -63,6 +62,7 @@ body{
 } */
 
 #Varodimex{
+  position: relative;
   height:max-content;
   padding-top: 50px;
   width:100%;
@@ -71,7 +71,6 @@ body{
 
 .containerVarodimex{
   width: 100%;
-  height: 100%;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -84,10 +83,11 @@ body{
 .cardVarodimex{
 
   width:20rem;
-  height: 15rem;
+  min-height: 16rem;
   padding:15px;
   text-align: center;
   justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -119,19 +119,19 @@ i:hover{
   margin-top: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
 #Logistica .text{
+  width: 50%;
   position: relative;
-  width: 55%;
-  margin:0 20px;
+  margin:0;
 }
 
 #Logistica .text h3{
-  font-family: 'Kalam', cursive;
   margin-bottom: 45px;
   font-size: 50px;
   color: whitesmoke;
@@ -142,7 +142,6 @@ i:hover{
   padding:10px;
   color: white;
   font-size: 1.2rem;
-  font-family: 'Kalam', cursive;
   font-weight: 200;
   line-height: 28px;
 
@@ -376,10 +375,9 @@ i:hover{
 @media(max-width:950px){
   #Logistica{
     width: 100%;
-    
+    height: fit-content;
     position: relative;
     align-items: center;
-    flex-direction: column;
     padding-bottom: 5rem;
   }
 
@@ -388,14 +386,13 @@ i:hover{
     flex-direction: column;
     position: relative;
     width: fit-content;
-  
-    padding:0 15px;
+    padding:0 25px;
   }
   
   #Logistica .text h3{
     position: relative;
     margin-bottom: 45px;
-    font-size: 50px;
+    font-size: 40px;
     color: whitesmoke;
     
   }
@@ -404,7 +401,7 @@ i:hover{
     width: 100%;
     padding:1px;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
   
   }
   
