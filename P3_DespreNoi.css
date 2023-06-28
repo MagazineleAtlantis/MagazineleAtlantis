@@ -116,7 +116,7 @@ i:hover{
   position: relative;
   background:rgb(19, 19, 103);
   padding: 3rem 0;
-  margin: auto;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
