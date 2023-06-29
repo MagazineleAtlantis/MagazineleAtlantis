@@ -398,6 +398,7 @@ i:hover{
   }
   
   #Logistica .text p{
+    position: relative;
     width: 100%;
     padding:1px;
     font-weight: 600;
