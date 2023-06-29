@@ -126,6 +126,8 @@ i:hover{
 }
 
 #Logistica .text{
+  display: flex;
+  flex-direction: column;
   width: 50%;
   position: relative;
   margin:0;
@@ -135,7 +137,6 @@ i:hover{
   margin-bottom: 45px;
   font-size: 50px;
   color: whitesmoke;
-  ;
 }
 
 #Logistica .text p{
@@ -383,9 +384,6 @@ i:hover{
   }
 
   #Logistica .text{
-    display: flex;
-    flex-direction: column;
-    position: relative;
     width: fit-content;
     padding:0 25px;
   }
@@ -394,7 +392,6 @@ i:hover{
     position: relative;
     margin-bottom: 45px;
     font-size: 40px;
-    color: whitesmoke;
     
   }
   
@@ -402,7 +399,7 @@ i:hover{
     position: relative;
     width: 100%;
     padding:1px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
   
   }
@@ -414,7 +411,6 @@ i:hover{
     position: relative;
     justify-content: center;
     align-items: center;
-    margin:auto;
   }
   
   .logistica_img img{
