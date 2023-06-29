@@ -121,7 +121,6 @@ i:hover{
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  flex-wrap: wrap;
 
 }
 
@@ -381,6 +380,7 @@ i:hover{
     position: relative;
     align-items: center;
     padding-bottom: 5rem;
+    flex-direction: column;
   }
 
   #Logistica .text{
@@ -388,7 +388,7 @@ i:hover{
     padding:0 25px;
   }
   
-  #Logistica .text h3{
+  /* #Logistica .text h3{
     position: relative;
     margin-bottom: 45px;
     font-size: 40px;
@@ -402,7 +402,7 @@ i:hover{
     font-weight: 500;
     font-size: 1rem;
   
-  }
+  } */
   
   #Logistica .logistica_img {
     width: 90%;
