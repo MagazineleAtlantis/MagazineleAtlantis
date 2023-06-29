@@ -99,7 +99,7 @@ body {
     margin:0;
     padding:0;
     font-size: 6rem;
-    color:rgba(255,255,255,0.05);
+    color:rgba(255, 255, 255, 0.243);
     transition:0.5s ease;
 
 }
@@ -197,11 +197,11 @@ div:hover .flipcard{
 
 .verticaltext h2{
     position: relative;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 800;
-    word-spacing: -6px;
+    word-spacing: 0px;
     letter-spacing: -10px;
-    font-family: 'Leckerli One', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
 
 }
 
